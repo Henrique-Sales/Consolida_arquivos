@@ -10,6 +10,7 @@ import pandas as pd
 
 
 def consolida():
+    from tkinter import messagebox
     from gui import app
     from gui import bar
     bar['value'] = 0
