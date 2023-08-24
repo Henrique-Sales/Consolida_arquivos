@@ -3,12 +3,14 @@ from tkinter import *
 import threading
 from tkinter import ttk
 import time
+import tkinter
 from tkinter.ttk import *
 import os
 import pandas as pd
 
 
 def consolida():
+    from gui import app
     from gui import bar
     bar['value'] = 0
     inicio = time.time()
